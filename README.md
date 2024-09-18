@@ -15,7 +15,10 @@ To start Metro, run the following command from the _root_ of your React Native p
 npm start
 
 # OR using Yarn
-yarn start
+yarn startgraphical interface for managing the SDK components.
+
+    Download and Install Android Studio:
+        Go to the Android Studio download page.
 ```
 
 ## Step 2: Start your Application

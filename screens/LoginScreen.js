@@ -26,7 +26,7 @@ const LoginScreen = ({ navigation }) => {
   return (
     <ImageBackground source={require('../assets/woodbackground.png')} style={styles.background}>
       <Animated.View style={[styles.container, { opacity: fadeAnim }]}>
-        {/* Title Image */}
+        {}
         <Image source={require('../assets/title.png')} style={styles.titleImage} />
 
         <TextInput
@@ -66,7 +66,7 @@ const LoginScreen = ({ navigation }) => {
             }
           }}
         />
-        {/* Button directly under password input */}
+        {}
         <TouchableOpacity onPress={handleLogin} style={styles.imageButton}>
           <Image source={require('../assets/button.png')} style={styles.buttonImage} />
         </TouchableOpacity>
@@ -74,7 +74,7 @@ const LoginScreen = ({ navigation }) => {
           onPress={() => navigation.navigate('Register')}
           style={styles.link}
         >
-          <Text style={styles.linkText}>Don't have an account? Tap here to register</Text>
+          <Text style={styles.linkText}>'No account? Tap here to register'</Text>
         </TouchableOpacity>
       </Animated.View>
     </ImageBackground>
